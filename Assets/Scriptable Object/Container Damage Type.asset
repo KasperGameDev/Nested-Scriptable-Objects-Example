@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-5909966769111952100
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffd3b13257c215c4ab1191dc25538ef2, type: 3}
+  m_Name: Water
+  m_EditorClassIdentifier: 
+  _myContainer: {fileID: 11400000}
+  _name: Water
+  _icon: {fileID: 0}
+--- !u!114 &-5768626177759511092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffd3b13257c215c4ab1191dc25538ef2, type: 3}
+  m_Name: Air
+  m_EditorClassIdentifier: 
+  _myContainer: {fileID: 11400000}
+  _name: Air
+  _icon: {fileID: 0}
+--- !u!114 &-5357386857599844714
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffd3b13257c215c4ab1191dc25538ef2, type: 3}
+  m_Name: Fire
+  m_EditorClassIdentifier: 
+  _myContainer: {fileID: 11400000}
+  _name: Fire
+  _icon: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 675a306f31600154bb04afca336e9d49, type: 3}
+  m_Name: Container Damage Type
+  m_EditorClassIdentifier: 
+  _damageTypes:
+  - {fileID: -5357386857599844714}
+  - {fileID: -5909966769111952100}
+  - {fileID: 4156695023653751108}
+  - {fileID: -5768626177759511092}
+--- !u!114 &4156695023653751108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ffd3b13257c215c4ab1191dc25538ef2, type: 3}
+  m_Name: Earth
+  m_EditorClassIdentifier: 
+  _myContainer: {fileID: 11400000}
+  _name: Earth
+  _icon: {fileID: 0}
